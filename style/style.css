@@ -500,6 +500,7 @@ footer .footer-menu {
   .card2,
   .card3 {
     width: 100%;
+    opacity: 1;
   }
 
   .form-container {
