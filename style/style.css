@@ -1,19 +1,5 @@
 html {
-  background-image: linear-gradient(
-    to top right,
-    rgb(46, 46, 46),
-    rgb(51, 51, 51),
-    rgb(55, 55, 55),
-    rgb(60, 60, 60),
-    rgb(65, 65, 65),
-    rgb(69, 69, 69),
-    rgb(74, 74, 74),
-    rgb(78, 78, 78),
-    rgb(83, 83, 83),
-    rgb(88, 88, 88),
-    rgb(92, 92, 92),
-    rgb(97, 97, 97)
-  );
+  background-color: #005351;
 }
 
 body {
@@ -62,8 +48,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+padding: 20px 50px;
+
 }
 
 nav {
@@ -84,7 +70,7 @@ nav {
 
 .navbutton:hover,
 .active {
-  background-color: #ececec1f;
+  background-color: #700029;
   transition-duration: 500ms;
 }
 
@@ -194,13 +180,13 @@ main {
   width: 30%;
   min-height: 250px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.228);
-  opacity: 0.7;
+  filter: brightness(70%);
 }
 
 .card1:hover,
 .card2:hover,
 .card3:hover {
-  opacity: 1;
+  filter: brightness(100%);
 }
 
 .cards i {
@@ -227,7 +213,7 @@ h3 {
   text-align: center;
   margin-bottom: 50px;
   font-size: 1.8em;
-  border-bottom: 1px solid #b6b6b663;
+  /* border-bottom: 1px solid #b6b6b663; */
   padding-bottom: 20px;
   font-family: "Playfair Display", serif;
 }
@@ -244,15 +230,14 @@ h3 {
 }
 
 /* Contact form */
-input[type="text"],
-input[type="email"],
+input,
 textarea {
   padding: 12px 20px;
   width: 100%;
   font-family: "Roboto", sans-serif;
   font-size: 0.85rem;
   box-sizing: border-box;
-  background-color: rgb(167, 167, 167);
+  background-color: #E3FFFE;
   border-radius: 5px;
   border: none;
 }
@@ -299,6 +284,10 @@ form {
   margin: 50px 0px;
 }
 
+textarea{
+  resize: none;
+}
+
 /* About */
 .about-text,
 .contact {
@@ -312,7 +301,7 @@ footer {
   position: relative;
   text-align: center;
   font-size: 0.7em;
-  background-color: rgba(58, 58, 58, 0.534);
+  background-color: #00403E;
   height: max-content;
   padding: 30px 0 40px 0;
 }
@@ -525,4 +514,20 @@ footer .footer-menu {
   input[type="submit"] {
     margin-top: 20px;
   }
+}
+
+
+
+
+
+
+
+.top-btn{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  z-index: 10;
+  background-color: #700029;
+  padding: 15px;
+  transform: rotate(270deg);
 }
