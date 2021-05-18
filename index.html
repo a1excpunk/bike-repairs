@@ -8,9 +8,12 @@
     <title>Roar Cycle - Bike Repairs in Dublin</title>
     <link rel="shortcut icon" href="./images/icons/logo-roar-bikes-small.svg" type="image/x-icon">
     <!-- Mric Meyers CSS reset -->
-    <link rel="stylesheet" href="./style/css-reset.css">
+    <link rel="stylesheet" href="./css/css-reset.css">
     <!-- My style sheet -->
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- Script -->
+    <script src="./js/script.js" defer></script>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto:300&display=swap" rel="stylesheet">
     <!-- Icons -->
@@ -210,13 +213,13 @@
 
         <div class="main" id="contact">
             <div class="contact">
-                <h1>Contact Us</h1>
+                <h1 class="down">Contact Us</h1>
                 <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to
                     you
                     within a matter of hours to help you.</p>
             </div>
 
-            <div class="form-container">
+            <div class="form-container hidden">
                 <form>
                     <div class="inputwrapper">
                         <label for="contact-name" class="newline">First Name</label>
@@ -253,11 +256,11 @@
         <!-- book online -->
         <div class="main" id="book-online">
             <div class="contact">
-                <h1>Book Online</h1>
+                <h1 class="down">Book Online</h1>
                 <p>Book consultation or visit in advance, for more convenience</p>
             </div>
 
-            <div class="form-container">
+            <div class="form-container hidden">
                 <form>
                     <div class="inputwrapper">
                         <label for="booking-name" class="newline">First Name</label>
