@@ -7,6 +7,8 @@ let bookingIcon = document.querySelectorAll('.down')[1];
 let contactForm = document.querySelectorAll('.form-container')[0];
 let bookForm = document.querySelectorAll('.form-container')[1];
 
+let burgerMenuBtn = document.getElementById('burger-menu');
+let burgerMenu = document.querySelector('.burger-menu-dropdown');
 
 contactFormBtn.addEventListener('click', function(){
     contactForm.classList.toggle('hidden');
@@ -15,4 +17,8 @@ contactFormBtn.addEventListener('click', function(){
 bookFormBtn.addEventListener('click', function(){
     bookForm.classList.toggle('hidden');
     bookingIcon.classList.toggle('up')
+})
+
+burgerMenuBtn.addEventListener("click", function(){
+    burgerMenu.classList.toggle('hidden')
 })
