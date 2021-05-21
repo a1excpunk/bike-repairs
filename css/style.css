@@ -136,7 +136,6 @@ textarea {
 }
 
 /* universal margin for containers */
-header,
 main,
 .cards,
 .testimonials-container,
@@ -154,6 +153,7 @@ header {
   align-items: center;
   padding: 20px 0;
   box-sizing: border-box;
+  margin-bottom: 30px;
 }
 
 .logo {

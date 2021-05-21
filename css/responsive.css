@@ -7,6 +7,16 @@
     display: none;
   }
 
+  main,
+  .cards,
+  .testimonials-container,
+  .services-container,
+  #about,
+  #contact,
+  #book-online {
+    margin-bottom: 50px;
+  }
+
   header {
     position: relative;
     width: 100%;
@@ -134,9 +144,9 @@
 }
 
 @media screen and (max-width: 500px) {
-
   header {
     gap: 30px;
+    margin-bottom: 10px;
   }
 
   .logo img {
@@ -146,8 +156,8 @@
   .burger-menu {
     width: 25px;
   }
-  
-  .burger-menu-dropdown{
+
+  .burger-menu-dropdown {
     top: 80px;
   }
 
