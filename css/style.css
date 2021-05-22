@@ -146,6 +146,23 @@ main,
   margin-bottom: 100px;
 }
 
+/* Preloader */
+.preload{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+  background-color: #fff;
+}
+
+.preload-hide{
+  visibility: hidden;
+  z-index: -20;
+}
+
 /* Header */
 header {
   display: flex;
