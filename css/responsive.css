@@ -31,12 +31,12 @@
   .burger-menu {
     position: relative;
     width: 40px;
+    cursor: pointer;
   }
 
   .burger-menu-dropdown {
     position: absolute;
     background-color: #fff;
-    padding: 20px;
     text-align: center;
     top: 100px;
     right: 20px;
@@ -48,8 +48,13 @@
   .burger-menu-dropdown a {
     color: #333;
     display: block;
-    padding: 20px;
+    padding: 20px 30px;
     font-family: serif;
+  }
+
+  .burger-menu-dropdown a:hover{
+    background-color: #dd6305;
+    color: #fff;
   }
 
   /* main */
@@ -119,6 +124,39 @@
   .service {
     width: 45%;
     gap: 0;
+  }
+
+  #servicePopup{
+    flex-direction: column;
+  }
+
+  #closePopup{
+    background-color: rgba(255, 255, 255, 0.7);
+  }
+
+  #closePopup:hover{
+    background-color: #fff;
+  }
+
+  #serviceImg{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .servicePopupText{
+    color: #000;
+  }
+  
+  #serviceName{
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  #serviceContent{
+    font-size: 1rem;
   }
 
   /* contact  */
