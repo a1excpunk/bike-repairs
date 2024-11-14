@@ -4,3 +4,4 @@ This is one of the first projects from the beginning of my journey, although I h
 ## Deploying project
 
 - [GitHub Page](https://a1excpunk.github.io/bike-repairs/)
+- [deployed Page](https://a1excpunk.github.io/bike-repairs/)
